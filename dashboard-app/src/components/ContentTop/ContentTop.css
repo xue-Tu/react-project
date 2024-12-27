@@ -1,0 +1,44 @@
+.content-main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 32px;
+}
+
+.sidebar-toggler {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.sidebar-toggler img {
+  width: 20px;
+}
+
+.content-top-title {
+  color: var(--clr-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-top-btn {
+  margin-left: 18px;
+}
+
+.content-top-btn img {
+  width: 24px;
+}
+
+.content-top-btn img:hover {
+  /* 
+    brightness: 调整元素的亮度 0 -- 完全黑色 1 -- 原始亮度 
+    invert 用于反转元素的颜色  0 -- 无反转 1 -- 完全反转 
+  */
+  filter: brightness(0) invert(1);
+}
+
+.content-top-left {
+  display: flex;
+  align-items: center;
+}
