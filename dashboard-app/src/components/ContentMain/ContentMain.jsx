@@ -25,7 +25,7 @@ function ContentMain() {
             <Savings />
           </div>
         </div>
-        <div className="grid-item-two">
+        <div className="grid-two-item">
           <div className="subgrid-two">
             <Loans />
             <Financial />
