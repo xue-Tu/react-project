@@ -33,6 +33,7 @@ function Budget() {
               <div className="grid-item-r">
                 <span className="text-silver-v1">${budget.amount}</span>
               </div>
+              
             </div>
           ))}
         </div>
